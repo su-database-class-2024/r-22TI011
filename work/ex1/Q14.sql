@@ -1,0 +1,2 @@
+CREATE VIEW store_address AS SELECT store_id, address, city_id FROM store, address WHERE store.address_id = address.address_id;
+SELECT store_id, address, city FROM store_address, city WHERE store_address.city_id = city.city_id;
