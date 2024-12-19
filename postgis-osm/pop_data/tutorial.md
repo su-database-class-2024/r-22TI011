@@ -62,14 +62,14 @@ chmod +x /work/data/osm/kanto-latest.osm.pbf
 ```
 
 ### 2.3. スキーマの作成とデータ入力
-[osm data](http://download.geofabrik.de/asia/japan.html)と[default.style](https://learnosm.org/files/default.style)のあるディレクトリ `/work/data/osm` をカレントディレクトリとし、以下を実行する。
+[osm data](http://download.geofabrik.de/asia/japan.html)と[default.style](https://learnosm.org/files/default.style)のあるディレクトリ `/work/data/osm` をカレントディレクトリとし、以下を実行する。ls
 
 ```sh
 osm2pgsql --create --database=gisdb --slim --style=./default.style -U postgres -H localhost ./kanto-latest.osm.pbf
 ```
 （注意）かなり時間がかかります。
 
-
+<!-- ここまでやった -->
 ## 3. 人流データのインポート
 
 データは(G空間情報センター)[https://www.geospatial.jp/ckan/dataset/mlit-1km-fromto]より取得している。
