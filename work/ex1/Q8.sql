@@ -1,0 +1,1 @@
+SELECT country_id, city FROM city ORDER BY country_id LIMIT 10 OFFSET 0;
