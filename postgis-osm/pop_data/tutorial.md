@@ -69,7 +69,6 @@ osm2pgsql --create --database=gisdb --slim --style=./default.style -U postgres -
 ```
 （注意）かなり時間がかかります。
 
-<!-- ここまでやった -->
 ## 3. 人流データのインポート
 
 データは(G空間情報センター)[https://www.geospatial.jp/ckan/dataset/mlit-1km-fromto]より取得している。
